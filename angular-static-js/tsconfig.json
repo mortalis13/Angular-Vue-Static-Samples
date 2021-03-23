@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    // "sourceMap": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true
+    "baseUrl": ".",
+    "paths": {
+      "@angular/core": ["js/core.umd-6.0.0.js"],
+      "@angular/platform-browser": ["js/platform-browser.umd-6.0.0.js"],
+      "@angular/platform-browser-dynamic": ["js/platform-browser-dynamic.umd-6.0.0.js"]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
