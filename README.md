@@ -1,5 +1,7 @@
 # Static sample projects for Angular and Vue
 
+The projects with static dependencies without the need of **Node.js**.
+
 - **angular-remote-deps** - uses remote dependencies loading (through unpkg.com) and **TypeScript**
 - **angular-static-js** - uses local dependencies (**Angular 6**) and **JS** only
 - **angular-static-ts** - uses local dependencies (**Angular 6**) and **TypeScript**
